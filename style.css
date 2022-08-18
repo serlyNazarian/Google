@@ -1,0 +1,138 @@
+body {
+    background-color: #202124;
+    height: 100%;
+    max-height: 100vh;
+    color: white;
+    font-family: arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 13px;
+}
+
+nav div {
+    padding: 6px;
+}
+
+.nav-icon {
+    width: 32px;
+    height: 25px;
+    fill: white;
+}
+
+.profile-img {
+    width: 40px;
+    height: 40px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.nav-img:hover {
+    background-color: #515151;
+    border-radius: 30px;
+}
+
+.logo {
+    margin-bottom: 30px;
+}
+
+.logo-img {
+    max-width: 100%;
+    object-fit: contain;
+    width: auto;
+}
+
+.parent {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: calc(100vh - 250px);
+    z-index: 3;
+    box-shadow: none;
+    width: auto;
+}
+
+.search-bar {
+    display: flex;
+    border: 1px solid #5f6368;
+    border-radius: 24px;
+    width: 600px;
+    height: 44px;
+    align-items: center;
+}
+
+.search-bar:hover {
+    background-color: #303134;
+    border: 1px solid #202124;
+}
+
+.search-icon {
+    fill: #9aa0a6;
+    width: 18px;
+    padding-top: 5px;
+    padding-left: 15px;
+}
+
+.input-parent {
+    width: 100%;
+}
+
+.main-input {
+    width: 530px !important;
+    all: unset;
+    color: white;
+    padding-left: 5px;
+    height: 40px;
+}
+
+.mic-icon {
+    width: 24px;
+    height: 24px;
+    padding-right: 15px;
+    cursor: pointer;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.button {
+    all: unset;
+    background-color: #303134;
+    padding: 8px 15px 8px 15px;
+    border-radius: 4px;
+    border: 1px solid #202124;
+    font-size: 14px;
+}
+
+.button:hover {
+    border: 1px solid rgb(139, 139, 139);
+    cursor: pointer;
+}
+
+.Language {
+    margin-top: 30px;
+    font-size: small;
+    color: #bdc1c6;
+}
+
+.language-text {
+    color: #8ab4f8 !important;
+    text-decoration: none;
+}
+
+.language-text:hover {
+text-decoration: underline;
+}
